@@ -1,0 +1,39 @@
+#container{
+  padding-left: 13%;
+  margin-top: 100px;
+}
+
+#menu {
+  margin-left: 14%;
+  margin-top: 50px;
+}
+
+.link {
+  display: inline-block;
+  margin-left: 115px;
+}
+
+.link a {
+  text-decoration: none;
+  color: silver;
+}
+
+.link a:hover{
+  color: blue;
+}
+
+.block {
+  display: inline-block;
+  width: 420px;
+  margin-left: 60px;
+  height: 480px
+}
+
+#btn {
+  background: none;
+  padding: 15px 30px;
+  border: 1px black solid;
+  margin-left: 45%;
+  margin-bottom: 70px;
+  margin-top: 55px;
+}
