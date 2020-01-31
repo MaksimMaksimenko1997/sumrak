@@ -1,39 +1,60 @@
-#container{
+#container {
   padding-left: 13%;
   margin-top: 100px;
 }
 
 #menu {
-  margin-left: 14%;
+  margin-left: 265px;
   margin-top: 50px;
 }
 
 .link {
   display: inline-block;
-  margin-left: 115px;
+  margin-left: 100px;
 }
 
 .link a {
   text-decoration: none;
-  color: silver;
+  color: grey;
+  font-family: Playfair Display;
 }
 
-.link a:hover{
+.link a:hover {
   color: blue;
 }
 
 .block {
   display: inline-block;
   width: 420px;
+  height: 480px;
   margin-left: 60px;
-  height: 480px
+  font-family: Playfair Display;
+}
+
+.block h2 {
+  margin-bottom: 38px;
+  color: #535151;
+}
+
+.block2 {
+  margin-top: 132px;
+}
+
+.text {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-family: Ubuntu Light;
+  color: gray;
+}
+
+.text:hover {
+  color: blue;
 }
 
 #btn {
   background: none;
-  padding: 15px 30px;
+  padding: 25px 35px;
   border: 1px black solid;
-  margin-left: 45%;
-  margin-bottom: 70px;
-  margin-top: 55px;
+  margin: 55px 0 70px 45%;
+  font-family: Playfair Display;
 }
