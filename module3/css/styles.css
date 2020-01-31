@@ -1,16 +1,25 @@
 #container {
-  padding-left: 13%;
-  margin-top: 100px;
+width: 900px;
+margin: 0 auto;
+}
+
+nav{
+  margin-bottom: 100px;
+  margin-top: 75px;
 }
 
 #menu {
-  margin-left: 265px;
-  margin-top: 50px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .link {
   display: inline-block;
-  margin-left: 100px;
+  margin-right: 130px;
+}
+
+.link:last-child{
+  margin: 0;
 }
 
 .link a {
@@ -27,34 +36,48 @@
   display: inline-block;
   width: 420px;
   height: 480px;
-  margin-left: 60px;
-  font-family: Playfair Display;
+  margin-left: 25px;
+  font-family: Playfair Display ,Arial;
+}
+
+.block:nth-last-child(n+3){
+margin-bottom: 130px;
 }
 
 .block h2 {
   margin-bottom: 38px;
-  color: #535151;
+  color: #626262;
 }
 
-.block2 {
-  margin-top: 132px;
+.text-p {
+  color: #626262;
 }
 
 .text {
   margin-top: 30px;
   margin-bottom: 25px;
-  font-family: Ubuntu Light;
-  color: gray;
+  font-family: Ubuntu Light ,Arial;
+  color: #898989;
 }
 
 .text:hover {
   color: blue;
 }
 
+.text, a{
+  text-transform: uppercase;
+}
+
 #btn {
   background: none;
   padding: 25px 35px;
   border: 1px black solid;
-  margin: 55px 0 70px 45%;
-  font-family: Playfair Display;
+  margin-top: 55px;
+  /* width: 165px; */
+  font-family: Playfair Display ,Arial;
+}
+
+#button-container{
+  width: 100%;
+  text-align: center;
 }
