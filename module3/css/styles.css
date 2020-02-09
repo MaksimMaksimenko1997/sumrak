@@ -1,92 +1,90 @@
-.wraooer {
+body,
+p,
+button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #626262;
+}
+
+.wrapper {
   width: 900px;
   margin: 0 auto;
 }
 
-#menu ul {
+.navigation {
   text-align: center;
 }
 
-#menu li {
+.navigation li {
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 75px;
   margin-right: 100px;
   margin-bottom: 100px;
 }
 
-#menu li:last-child {
+.navigation li:last-child {
   margin-right: 0;
 }
 
-#menu li a {
+.navigation li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  width: 88px;
-  height: 11px;
+  color: #626262;
 }
 
-#menu li a:hover {
+.navigation li a:hover {
   color: #03a9f4;
 }
 
-#container {
-  margin-left: 260px;
+.post-wrap {
+  font-size: 0;
 }
 
-.block {
+.post {
   display: inline-block;
   width: 420px;
-  margin-right: 60px;
+  font-size: 14px;
+  margin-right: 56px;
   margin-bottom: 130px;
 }
 
-.block:nth-child(even) {
-  margin-right: 0px;
+.post:nth-child(even) {
+  margin-right: 0;
 }
 
-.block img {
+.post:nth-last-child(-n+2) {
+  margin-bottom: 55px;
+}
+
+.post img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.text {
-  font-size: 14px;
-  font-family: "Ubuntu", sans-serif;
-  color: #b4ad9e;
+.post .category {
+  font: 300 14px "Ubuntu" ,sans-serif;
   text-transform: uppercase;
-  line-height: 1.2;
+  color: #b4ad9c;
+  margin-top: 26px;
+  margin-bottom: 30px;
 }
 
-.block h2 {
-  font-size: 28px;
-  margin-bottom: 35px;
-  font-family: "PlayfairDisplay", sans-serif;
-  color: #626262;
-  line-height: 1.2;
+.category:hover {
+  color: #03a9f4;
 }
 
-.text-p {
-  font-style: 14px;
-  font-weight: 400px;
-  font-family: "PlayfairDisplay", sans-serif;
-  color: #626262;
-  line-height: 24px;
-  text-align: left;
+.post h3 {
+  font-size: 30px;
 }
 
-#btn {
+.btn-more {
   display: block;
   margin: 0 auto;
   font-size: 20px;
   border: 1px solid;
   padding: 20px 35px;
   margin-bottom: 75px;
-  font-family: "PlayfairDisplay" sans-serif;
-  color: #626262;
-  line-height: 1.2;
 }
