@@ -72,8 +72,8 @@ header {
 
 .slide_logo img {
     position: relative;
-    height: 550px;
-    width: 1400px;
+    height: 600px;
+    width: 1600px;
 }
 
 .slide::after {
@@ -82,8 +82,8 @@ header {
     display: block;
     top: 0;
     left: 0;
-    width: 1400px;
-    height: 550px;
+    width: 1600px;
+    height: 600px;
     background-color: rgba(0, 0, 2, 0.52);
   }
 
