@@ -87,26 +87,27 @@ header {
 
 .text-slide {
     position: absolute;
+    width: fit-content;
     text-align: center;
     text-transform: uppercase;
     transform: translate(-50%, -50%);
-    top: 55%;
+    top: 60%;
     left: 50%;
-    letter-spacing: -0.02em;
+    font-family: "Robot" ,sans-serif;
 }
 
 .text-h {
+    text-align: center;
     font-size: 60px;
     color: #fff;
-    font-weight: 900;
-    line-height: 82px;
+    font-weight: 700;
 }
 
 .text-p {
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 54px;
 }
 /* nev  */
