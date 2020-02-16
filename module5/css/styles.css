@@ -52,9 +52,9 @@ header {
 
 .link a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Open Sans" ,sans-serif;
-    color: #494242;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 0.786;
@@ -191,6 +191,8 @@ header {
 }
 
 .collection-card {
+    height: 324px;
+    width: 255px;
     display: block;
     float: left;
     position: relative;
@@ -222,13 +224,12 @@ header {
 
 .collection-card img {
     display: block;
-    z-index: 22;
 }
 
 .button-icon {
     position: absolute;
     display: none;
-    left: 20%;
+    left: 15%;
     top: 30%;
 }
 
@@ -263,16 +264,31 @@ header {
 }
 
 .hart {
-    background:  url(../img/hart.png) center no-repeat;
-
+    background: url(../img/hart.png) center no-repeat;
 }
 
 .line {
-    background:  url(../img/line.png) center no-repeat;
+    background: url(../img/line.png) center no-repeat;
 }
 
 .clock {
     background: url(../img/clock.png) center no-repeat;
+}
+
+.hart:hover {
+    background: #1abc9c url(../img/hart.png) center no-repeat;
+}
+
+.line:hover {
+    background: #1abc9c url(../img/line.png) center no-repeat;
+}
+
+.clock:hover {
+    background: #1abc9c url(../img/clock.png) center no-repeat;
+}
+
+.icon:hover {
+    border: none;
 }
 
 .button-cards {
@@ -293,6 +309,11 @@ header {
     border-style: solid;
 }
 
+.basket:hover {
+    background: #1abc9c;
+    border: none;
+}
+
 .basket img {
     float: left;
     width: 30px;
@@ -307,6 +328,10 @@ header {
   font-family: "Open Sans";
   line-height: 2.286;
   text-transform: uppercase;
+}
+
+.text {
+    position: absolute;
 }
 
 .text-block a {
