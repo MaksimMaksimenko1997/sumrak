@@ -320,10 +320,10 @@ header {
     height: 30px;
 }
 
-.basket p {
+.basket span {
   width: 100px;
   margin: 0 auto;
-  float: left;
+  text-align: center;
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 2.286;
