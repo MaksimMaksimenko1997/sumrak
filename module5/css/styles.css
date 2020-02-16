@@ -91,7 +91,6 @@ header {
 
 .text-slide {
     position: absolute;
-    /* width: max-content; */
     text-align: center;
     text-transform: uppercase;
     transform: translate(-50%, -50%);
@@ -167,7 +166,6 @@ header {
   opacity: 1;
 }
 
-/* nev  */
 .new_collection{
     text-transform: uppercase;
     text-align: center;
@@ -191,9 +189,6 @@ header {
     content: '';
     margin: 25px auto 0px;
 }
-
-/* nev  */
-/* colection */
 
 .collection-card {
     display: block;
@@ -356,8 +351,6 @@ header {
     background: #7fd9c7;
 }
 
-/* colection */
-/* footer */
 .footer {
     background-color: #323232;
 }
@@ -375,4 +368,3 @@ header {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
-/* footer */
