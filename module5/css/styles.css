@@ -9,9 +9,14 @@ body {
 }
 
 header {
-    padding-top: 40px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     text-align: center;
+
+}
+
+.page-header {
+    background-color: white;
 }
 
 #site-logo , .link li {
@@ -29,11 +34,16 @@ header {
 }
 
 #site-logo a {
-    text-decoration: none;
+    font-weight: 300;
     color: #555252;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 #site-logo:first-letter{
+    font-weight: 900;
     color: #1abc9c;
 }
 
@@ -54,8 +64,8 @@ header {
     text-decoration: none;
     font-size: 14px;
     font-family: "Open Sans" ,sans-serif;
+    font-weight: 700;
     color: #000000;
-    font-weight: bold;
     text-transform: uppercase;
     line-height: 0.786;
 }
@@ -94,7 +104,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     transform: translate(-50%, -50%);
-    top: 40%;
+    top: 50%;
     left: 50%;
     font-family: "Robot" ,sans-serif;
 }
@@ -108,6 +118,8 @@ header {
 
 .text-p {
     text-align: left;
+    margin-left: 135px;
+    width: 500px;
     font-size: 20px;
     color: #fff;
     font-weight: 100;
@@ -142,12 +154,12 @@ header {
 
 .btn-left {
   float: left;
-  right: 112%;
+  right: 100%;
 }
 
 .btn-right {
   float: right;
-  left: 112%;
+  left: 100%;
 }
 
 .btn-left::after {
@@ -164,6 +176,10 @@ header {
 .btn-right:hover {
   background-color: #1abc9c;
   opacity: 1;
+}
+
+section.slide_logo {
+    position: relative;
 }
 
 .new_collection{
@@ -330,9 +346,6 @@ header {
   text-transform: uppercase;
 }
 
-.text {
-    position: absolute;
-}
 
 .text-block a {
   text-decoration: none;
