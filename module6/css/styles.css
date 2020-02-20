@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    min-height: 100px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.logo {
+    font-size: 60px;
+}
