@@ -60,7 +60,6 @@ header{
     margin-right: 0;
 }
 
-
 .all-container{
     width: 1110px;
     margin: 0 auto;
@@ -104,7 +103,11 @@ header{
     background: #e9f0fd;
 }
 
-.featured:nth-child(4n){
+.featured:nth-child(5n){
+    margin-right: 0;
+}
+
+.featured:nth-child(9n){
     margin-right: 0;
 }
 
@@ -115,8 +118,6 @@ header{
 .container{
     text-align: center;
     margin: 0 auto;
-    width: 1110px;
-    height: 678px;
 }
 
 .featured a {
@@ -187,11 +188,15 @@ header{
     background: #7fd9c7;
 }
 
+/* .container2 {
+    padding-top: 100px;
+} */
+
 .latest_news {
-    margin-top: 104px;
+    padding-top: 100px;
     font-size: 40px;
     font-family: "Roboto" ,sans-serif;
-    color: #555252;
+    color: #515151;
     text-transform: uppercase;
     line-height: 0.667;
     text-align: center;
@@ -208,12 +213,6 @@ header{
     background-color: #1abc9c;
 }
 
-.container2{
-    margin: 0 auto;
-    width: 1110px;
-    height: 540px;
-}
-
 .container2 .box-container-2:last-child{
     margin-right: 0;
 }
@@ -222,7 +221,6 @@ header{
     margin-bottom: 30px;
     margin-right: 30px;
     width: 350px;
-    height: 490px; 
     float: left;
 }
 
@@ -257,11 +255,15 @@ h3::after{
     border-radius: 3px;
     margin-bottom: 45px;
     background-color: #4ec6ab;
-    color: #ffffff;
     width: 159px;
     height: 51px;
     box-shadow: none;
     border: none;
+ 
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
     font-size: 16px;
     font-family: "OpenSans" ,sans-serif;
     line-height: 1.625;
