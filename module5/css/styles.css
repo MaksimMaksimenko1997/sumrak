@@ -42,7 +42,7 @@ header {
     font-size: 30px;
 }
 
-#site-logo:first-letter{
+#site-logo:first-letter {
     font-weight: 900;
     color: #1abc9c;
 }
@@ -56,7 +56,7 @@ header {
     text-transform: uppercase;
 }
 
-.link a:hover{
+.link a:hover {
     color: #38c1a4; 
 }
 
@@ -111,15 +111,17 @@ header {
 
 .text-h {
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     color: #fff;
     font-weight: 700;
+    width: max-content;
+    margin: 0 auto;
 }
 
 .text-p {
     text-align: left;
-    margin-left: 135px;
-    width: 500px;
+    margin-left: 170px;
+    width: max-content;
     font-size: 20px;
     color: #fff;
     font-weight: 100;
@@ -144,22 +146,22 @@ header {
   }
 
 .btn-left::after, .btn-right::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 22px;
-  height: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 38px;
 }
 
 .btn-left {
   float: left;
-  right: 100%;
+  right: 91%;
 }
 
 .btn-right {
   float: right;
-  left: 100%;
+  left: 91%;
 }
 
 .btn-left::after {
@@ -207,12 +209,10 @@ section.slide_logo {
 }
 
 .collection-card {
-    height: 324px;
     width: 255px;
     display: block;
     float: left;
     position: relative;
-    margin: 0 auto;
     margin-right: 30px;
     margin-bottom: 100px;
     z-index: 11;
@@ -238,8 +238,10 @@ section.slide_logo {
     clear: both;
 }
 
-.collection-card img {
+.img-wrapper {
+    position: relative;
     display: block;
+    height: 280px;
 }
 
 .button-icon {
@@ -258,15 +260,15 @@ section.slide_logo {
 }
 
 .overlain {
-    width: 230px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.44);
     display: none;
     position: absolute;
-    margin: 0 auto;
-    top: 5%;
-    left: 5%;
-    right: 5%;
+    top: 0;
+    border: 10px solid transparent;
+    padding: 10px;
+    background-clip: padding-box;
     z-index: 250;
 }
 
