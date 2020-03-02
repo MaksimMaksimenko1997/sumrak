@@ -183,6 +183,7 @@ form {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 3px;
+    outline: none;
 }
 
 input::placeholder {
@@ -191,7 +192,6 @@ input::placeholder {
     color: #bbbbbb;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.2;
     padding-left: 20px;
 }
 
@@ -201,19 +201,28 @@ input::placeholder {
     border-radius: 3px;
 }
 
+.input-right ,.input-left {
+    font-size: 20px;
+    font-family: "Montserrat" ,sans-serif;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
 .valid-test:invalid:not(:placeholder-shown) {border-color: red;}
 .valid-test:valid:not(:placeholder-shown) {border-color: green;}
 
 input {
     height: 50px;
     width: 455px;
+    outline: none;
 }
 
 .text-area-form {
-    max-width: 455px;
-    max-height: 210px;
-    min-width: 455px;
-    min-height: 210px;
+    height: 210px;
+    width: 100%;
+    resize: none;
 }
 
 .text-area-form::placeholder {
@@ -258,4 +267,20 @@ input {
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/roboto/roboto-slab-v11-latin-regular.woff2') format('woff2');
+  }
+
+/* montserrat-800 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/montserrat-v14-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+}
+
+/* signika-300 - latin */
+@font-face {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/signika/signika-v10-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
   }
