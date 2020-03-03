@@ -192,7 +192,6 @@ input::placeholder {
     color: #bbbbbb;
     font-weight: bold;
     text-transform: uppercase;
-    padding-left: 20px;
 }
 
 .input-right {
@@ -217,6 +216,8 @@ input {
     height: 50px;
     width: 455px;
     outline: none;
+    padding-left: 20px;
+
 }
 
 .text-area-form {
@@ -274,7 +275,7 @@ input {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    src: url('../fonts/montserrat/montserrat-v14-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    src: url('../fonts/montserrat/montserrat-v14-latin-800.woff2') format('woff2');
 }
 
 /* signika-300 - latin */
@@ -282,5 +283,5 @@ input {
     font-family: 'Signika';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/signika/signika-v10-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    src: url('../fonts/signika/signika-v10-latin-300.woff2') format('woff2');
   }
