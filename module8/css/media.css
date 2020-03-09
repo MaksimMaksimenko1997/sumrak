@@ -15,17 +15,25 @@
         display: flex;
         justify-content: space-around;
     }
+    .page-header {
+        max-width: 100%;
+        max-height: 100%;
+    }
 
     .logo {
         display: none;
+        font-weight: 700;
     }
 
     .logo-tablet {
         display: flex;
         align-items: center;
+        font-weight: 700;
     }
 
     .wrapper {
+        width: 660px;
+        margin: 0  auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -37,14 +45,44 @@
         width: 266px;
     }
 
+    .post p {
+        font-weight: 400;
+    }
+
     .post-text h2{
         font-size: 52px; 
         width: 492px;
+        font-weight: 700;
+    }
+
+    .post h4 {
+        font-weight: 700;
     }
 
     .post-text p {
         font-size: 24px;
         width: 404px;
+        font-weight: 700;
+    }
+
+    .page-nav a {
+        font-weight: 700;
+    }
+
+    .logo-text {
+        font-weight: 700;
+    }
+
+    .button-tablet button {
+        font-weight: 700;
+    }
+
+    .btn {
+        font-weight: 700;
+    }
+
+    .btn-more button {
+        font-weight: 700;
     }
      
 }
@@ -61,6 +99,11 @@
         justify-content: space-around;
     }
 
+    .page-header {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
     .logo-tablet {
         display: flex;
     }
@@ -70,6 +113,8 @@
     }
 
     .wrapper {
+        width: 942px;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
