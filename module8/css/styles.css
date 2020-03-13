@@ -12,16 +12,13 @@
 
 .page-header {
     max-width: 100%;
-    max-height: 100%;
     background-image: url(../img/vector.png);
     background-position-x: center;
     background-repeat: no-repeat;
-}
-
-.page-header {
+    background-size: cover;
     display: flex;
     flex-direction: column; 
-    height: auto;
+    height: 100vh;
 }
 
 .page-header a {
@@ -127,7 +124,6 @@
 
 .btn {
     margin-top: 20px;
-    margin-bottom: 140px;
     border-style: none;
     border-radius: 50px 50px;
     background-color: #ff4e50;
@@ -258,11 +254,11 @@
     text-align: center;
 }
 
-.btn-more {
+.btn-wrapper {
     text-align: center;
 }
 
-.btn-more button{
+.btn-more {
     margin-bottom: 60px;
     border-style: solid;
     border-width: 2px;
