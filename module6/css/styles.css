@@ -40,13 +40,15 @@ body {
     transition: color 0.2s linear;
 }
 
-.site-navigation a:hover {
+.link-hover:hover {
     color: #f38181;
+    position: relative;
 }
 
-.site-navigation a:hover:after {
+.link-hover:hover:after {
     content: "";
     display: block;
+    position: absolute;
     width: 100%;
     height: 3px;
     background-color: #f38181;
@@ -56,26 +58,27 @@ body {
 /* list item */
 .logo-item {
     padding-top: 128px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    text-align: center;
 }
 
 .logo-item span {
+    display: block;
     font-size: 24px;
-    font-family: "Kaushan Script" ,sans-serif;
+    line-height: 29px;
+    margin-bottom: 15px;
     color: #333333;
-    line-height: 1.2;
+    font-family: 'Kaushan Script', cursive; 
+    text-transform: none;
 }
 
-.logo-item  h2 {
-    margin-top: 24px;
+.title-describe {
+    margin-top: 30px;
     font-size: 30px;
-    font-family: "Montserrat";
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
     color: #333333;
-    font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.2;
 }
 
 .logo-item  h2:after {
@@ -158,23 +161,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .logo-item2 span {
+    display: block;
+    padding-bottom: 15px;
     font-size: 24px;
-    font-family: "Kaushan Script" ,sans-serif;
     color: #333333;
-    line-height: 1.2;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;
 }
 
-.logo-item2  h2 {
+.team-describe {
     margin-top: 24px;
     font-size: 30px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     color: #333333;
-    font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.2;
 }
 
 .logo-item2  h2:after {
@@ -203,7 +207,6 @@ body {
 }
 
 .overlay {
-    height: 470px;
     position: relative;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -221,14 +224,13 @@ body {
     background-image:linear-gradient( rgb(243, 129, 129, 0.9) 0%,
     rgb(252, 227, 138, 0.9) 100%);
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-icon:hover{
     opacity: 1;
-}
-
-.button-icon {
-    position: absolute;
 }
 
 .team-people {
@@ -251,26 +253,28 @@ body {
 .text-position {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    font-style: italic;
     line-height: 24px;
     color: #999999;
 }
 
-.button-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.people-img img {
+    display: block;
 }
 
 .button-icon .icon{
     display: block;
     width: 56px;
     height: 56px;
+    border: 1px solid;
+    border-color: #f9bd87;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fce38a;
 }
 
-.button-icon .icon:hover {
+
+.icon:hover {
     background-color: #95e1d3;
 }
 
@@ -293,6 +297,20 @@ body {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footer-container::after {
+    content: '';
+    display: block;
+    background-color: #e5e5e5;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: -20%;
+    left: 0;
 }
 
 .form-subscribe {
@@ -309,7 +327,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
-.footer-text a {
+.footer-container a {
     color: #f38181;
     text-decoration: none;
 }
