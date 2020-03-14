@@ -60,12 +60,15 @@
 
 @media (min-width: 962px) {
     .page-nav {
+        width: 100%;
+        justify-content: space-between;
         align-items: center;
     }
 
-    .logo {
+    .page-nav .logo {
         margin: 0;
         order: -1;
+        text-align: start;
     }
 
     .wrapper-team {
@@ -91,5 +94,9 @@
     .logo-text h3 {
         font-size: 22px;
         font-weight: 700;
-    } 
+    }
+
+    .button-tablet {
+        text-align: end;
+    }
 }
