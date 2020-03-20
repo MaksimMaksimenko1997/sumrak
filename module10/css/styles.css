@@ -73,7 +73,7 @@
 .logo {
     display: flex;
     font-size: 30px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-weight: bold;
     line-height: 1.2;
