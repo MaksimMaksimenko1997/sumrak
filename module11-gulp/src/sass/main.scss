@@ -3,9 +3,10 @@
  */
 @import 'normalize.scss';
 @import 'base.scss';
-@import 'variables.scss';
-@import 'style.css';
-@import 'style.scss';
+
+// components
 @import './components/wrapper.scss';
+@import './components/page-header.scss';
+@import './components/header-describe.scss';
 // @import '';
 // @import '';
