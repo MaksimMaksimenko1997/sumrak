@@ -2,3 +2,22 @@
   width: 1200px;
   margin: 0 auto;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text-grey-color;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: $text-white-color;
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: none;
+}

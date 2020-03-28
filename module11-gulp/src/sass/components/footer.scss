@@ -1,0 +1,91 @@
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.footer-container::after {
+  content: '';
+  display: block;
+  background-color: #e5e5e5;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: -20%;
+  left: 0;
+}
+
+.footer-form-subscribe {
+  width: 230px;
+  height: 38px;
+  font-size: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 0;
+  border-right: 0;
+}
+
+.footer-text p {
+  font-size: 14px;
+  font-family: $montserrat-font-stack;
+  color: $text-dark-color;
+}
+
+.footer-container_link {
+  color: #f38181;
+  text-decoration: none;
+}
+
+.form-subscribe::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: $roboto-font-stack;
+  text-indent: 11px;
+}
+
+.form-subscribe::-moz-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: $roboto-font-stack;
+  text-indent: 11px;
+}
+
+.form-subscribe:-ms-input-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: $roboto-font-stack;
+  text-indent: 11px;
+}
+
+.form-subscribe::-ms-input-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: $roboto-font-stack;
+  text-indent: 11px;
+}
+
+.form-subscribe::placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: $roboto-font-stack;
+  text-indent: 11px;
+}
+
+.button-sub {
+  width: 149px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 900;
+  background-color: #95e1d3;
+  text-transform: uppercase;
+  color: $text-white-color;
+  font-family: $montserrat-font-stack;
+  border: 1px solid #e7e7e7;
+}

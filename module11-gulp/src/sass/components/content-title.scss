@@ -1,0 +1,33 @@
+.content-title {
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+}
+
+.title-describe span {
+  display: block;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 15px;
+  color: $text-dark-color;
+  font-family: $kaushan-script-font-cursive;
+  text-transform: none;
+}
+
+.title-describe {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: $montserrat-font-stack;
+  color: $text-dark-color;
+  text-transform: uppercase;
+}
+
+.content-title h2:after {
+  content: '';
+  display: block;
+  background-color: rgb(243, 129, 129);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 40px;
+}

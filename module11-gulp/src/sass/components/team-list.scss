@@ -1,0 +1,28 @@
+.team-people {
+  padding-bottom: 100px;
+}
+
+.team-list-img {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.team-list-name {
+  margin-bottom: 10px;
+  font-family: $montserrat-font-stack;
+  font-size: 14px;
+  color: $text-dark-color;
+  text-transform: uppercase;
+}
+
+.team-list-position {
+  font-family: $roboto-font-stack;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+  color: $text-grey-color;
+}
+
+.people-img img {
+  display: block;
+}

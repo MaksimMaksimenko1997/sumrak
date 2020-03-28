@@ -3,10 +3,19 @@
  */
 @import 'normalize.scss';
 @import 'base.scss';
+@import 'variables.scss';
 
 // components
 @import './components/wrapper.scss';
 @import './components/page-header.scss';
 @import './components/header-describe.scss';
-// @import '';
-// @import '';
+@import './components/site-navigation.scss';
+@import './components/content-title.scss';
+@import './components/service.scss';
+@import './components/content-title_team.scss';
+@import './components/team-list.scss';
+@import './components/footer.scss';
+// icon
+// icon
+@import './icon-sass-conteiner/icon-image.scss';
+@import './icon-sass-conteiner/button-icon.scss';

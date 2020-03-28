@@ -1,0 +1,48 @@
+.button-icon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.button-icon .icon {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border: 1px solid;
+  border-color: #f9bd87;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fce38a;
+}
+
+.button-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  fill: #f38181;
+  border-color: #f38181;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fce38a;
+
+  &:hover {
+    fill: #ffffff;
+    background-color: #f38181;
+  }
+}
